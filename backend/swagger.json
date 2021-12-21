@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "schemes": ["http", "https"],
+  "paths": {
+    "/hello": {
+      "get": {
+        "tags": [
+          "hello"
+        ],
+        "summary": "Hello Swagger",
+        "description": "Connect to the API",
+        "operationId": "get hello",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "schema": {
+              "type": "string",
+              "items": {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

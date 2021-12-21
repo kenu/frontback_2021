@@ -10,6 +10,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
+        <nav>
+          <a href="http://localhost:4000/api-docs/">api-docs</a>
+        </nav>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
